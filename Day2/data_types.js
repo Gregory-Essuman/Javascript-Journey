@@ -144,6 +144,6 @@ let text = "He earns 5000 euro from salary per month, 10000 euro annual bonus, 1
 let salaries = text.match(/\d+/g);
 let totalAnnualIncome = 0;
 salaries.forEach(element => {
-    totalAnnualIncome += Number(element);
+  totalAnnualIncome += Number(element);
 })
 console.log(totalAnnualIncome)
